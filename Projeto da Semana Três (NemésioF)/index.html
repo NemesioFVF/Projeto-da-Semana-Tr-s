@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="style.css">
+          <link rel="shortcut icon" href="img/listaicon.svg">
+
+          <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&display=swap" rel="stylesheet">
+
+          <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-green.min.css"/>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+          <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+          <title>Projeto da Semana Três - Lista de Tarefas</title>
+      </head>
+
+      <body>
+            <div class="conteudo">
+                  <div>
+                        <br><br>
+                        <h1>Lista de Tarefas</h1>
+                        <br><br>
+                          <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input" type="text" id="tfdigitada"
+                                        title="Para montar sua Lista digite uma tarefa" 
+                                        placeholder="Digite uma nova tarefa.....">
+                                <label class="mdl-textfield__label"></label>
+                          </div>
+                        <button  class=" mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" 
+                        id="mais" title="Adicionar Tarefa">+</button>
+                        <br><br><br>
+                        <ul id="UL"></ul>
+                  </div>
+                  <div id="btns">
+                    <br>
+                        <button disabled bdeletelist 
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"  
+                                id="dt" title="Deleta toda a Lista de Tarefas">Deletar Lista de Tarefas
+                        </button>
+                  </div> 
+            </div>
+            <script src="script.js"></script>
+        </body>
+</html>

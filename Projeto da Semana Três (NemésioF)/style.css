@@ -1,0 +1,116 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {
+  background-image: linear-gradient(120deg, #27a127, #276aa1);
+  min-height: 100vh;
+  background-attachment:fixed;
+}
+
+div h1 {
+  padding: 0%;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  color: rgba(0, 0, 0, 0.658);
+  font-size: 8rem;
+  margin: -3% 20%;
+  text-shadow: 0px 0px 6px rgba(42, 243, 139, 0.767);
+}
+  
+li {
+  font-family: 'Caveat', cursive !important;
+  font-size: 40px !important;
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 0px 0px 6px rgb(5, 5, 5);
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.61);
+  transition: 0.2s;
+  cursor: pointer !important;
+  background:transparent;
+  margin: -1% 4%;
+  flex-flow: row wrap;
+}
+
+ul {
+  display:ruby;
+  align-items:center;
+  background-color: rgba(28, 46, 73, 0.404);
+  min-width: 90vh;
+  height: 580px;
+  border-radius: 7px;
+  justify-content: space-between;
+  overflow-y: auto;
+  margin: -4% 0%;
+}
+ 
+.mdl-list__item:hover {
+  background:rgba(213, 248, 197, 0.555);
+  margin-top: 1%; 
+}
+  
+.mdl-list__item.checked {
+  background: rgba(60, 95, 79, 0.459);
+  color: rgba(255, 255, 255, 0.582);
+  text-decoration:rgba(255, 0, 0, 0.555) line-through;
+  margin-top: 1%;
+}
+  
+.conteudo {
+  display: flex;
+  background: linear-gradient(rgba(223, 213, 213, 0.5), rgba(15, 73, 180, 0.445)), url('img/fundo.jpg');
+  width: 900px;
+  height: 935px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-color:rgb(235, 235, 235) ;
+  border-radius: 7px;
+  padding: 0rem 0.5rem; 
+}
+
+.mdl-textfield__input{
+  margin:0% 80% !important;
+  color: rgb(11, 53, 28) !important;
+  padding: 0.5rem !important;
+  font-size: 30px !important;
+  font-family: 'Caveat', cursive !important;
+}
+
+.mdl-textfield__label{
+  margin:0% 80% !important;
+}
+
+.lixeira {
+  cursor: pointer;
+  color:rgb(213, 248, 197);
+  margin-right: inherit;
+}
+  
+.lixeira:hover {
+  color:rgb(235, 86, 86);
+}
+
+.material-icons{
+  display: inline-block;
+}
+  
+#mais {
+  background-image: linear-gradient(120deg, #27a12760, #276aa185);
+  color:white;
+  font-size: 25px;  
+  margin: 0% 28%;
+}
+  
+#dt {
+  background-color:transparent;
+  color: rgb(158, 21, 21);
+  margin-top: 17%;
+  display: flex;
+  width:100%;
+}
+
+::-webkit-scrollbar{width: 7px;}
+::-webkit-scrollbar-track {background: linear-gradient(rgb(129, 139, 160), rgb(104, 121, 155))}
+::-webkit-scrollbar-thumb{background: linear-gradient(#276aa185,#27a12760)}
+::-webkit-scrollbar-thumb:hover{background:linear-gradient(rgb(213, 248, 197),rgb(197, 215, 248))}
